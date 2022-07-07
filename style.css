@@ -12,7 +12,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden
+  overflow: visible;
 }
 
 html {
@@ -35,7 +35,7 @@ body {
 
 main {
   width: 90%;
-  max-width: 650px;
+  max-width: 750px;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -117,7 +117,7 @@ button:hover {
 }
 
 /*media queries */
-@media  (max-width: 650px) {
+@media  (max-width: 750px) {
   html {
     font-size: 50%;
   }
