@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link
+      rel="shortcut icon"
+      href="/assets/images/favicon.ico"
+    />
+    <title>Revelando Destino</title>
+  </head>
+  <body>
+    <main>
+      <img
+        src="https://imge.cloud/images/2022/06/07/rZFpa0.png"
+        alt="Astronauta com bola de cristal"
+      />
+      <h1>Vou revelar o seu destino!</h1>
+      <p>
+        Clique em <a id="textoPergunta">Fazer pergunta</a> para ter o seu destino revelado.
+      </p>
+      <input id="inputPergunta" type="text" placeholder="Digite sua pergunta" />
+      <button id="buttonPerguntar" onclick="fazerPergunta()">
+        Fazer Pergunta
+      </button>
+
+      <h3 id="pergunta"></h3>
+      <h3 class="resposta" id="resposta"></h3>
+      <img
+        src="https://www.rocketseat.com.br/assets/logos/boosting.svg"
+        class="rocket_logo"
+        alt="Rocketseat Boosting people."
+      />
+    </main>
+  </body>
+</html>
