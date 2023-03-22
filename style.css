@@ -1,0 +1,124 @@
+:root {
+  --color-white: #DADDDE;
+  --color-dark1: #272727;
+  --color-dark2: #2d2d2d;
+  --color-dark3: #414141;
+  --color-dark4: #1c1c1c;
+  --color-dark5: #343434;
+  --color-purple: #b21de9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+html {
+  /* a cada 1rem será considerado 10px */
+  font-size: 62.5%;
+}
+
+html,
+body {
+
+  background-image: url('https://images.pexels.com/photos/9945373/pexels-photo-9945373.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  color: var(--color-white);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+main {
+  width: 90%;
+  max-width: 650px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+  padding-inline: auto;
+  background-color: rgba(14, 14, 14, 0.332);
+  border: 2px solid rgba(0, 0, 0, 0);
+  box-shadow: 0 0 25px #b21de9;
+  border-radius: 35px;
+}
+
+img {
+  width: 100px;
+  margin-top: 30px
+}
+
+h1 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 3rem;
+  opacity: 0.9;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 1.6rem;
+  opacity: 0.7;
+}
+
+input,
+button {
+  display: inline-block;
+	font-size: 1.6rem;
+  width: 80%;
+	padding: 20px 20px;
+  text-align: center;
+	background-color:#0e0d0e;
+  box-sizing: border-box;
+	border-radius: 40px;
+	border: 1px solid #b21de9;
+	color: #eeeeee;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+button:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+
+#resposta {
+  margin-top: 30px;
+  transition: opacity 1s;
+  color: var(--color-purple);
+}
+
+.resposta {
+  font-size: 1.6rem;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 100px;
+}
+
+#textoPergunta {
+  color: var(--color-purple);
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.rocket_logo {
+  justify-content: center;
+  width: 135px;
+  margin-top: -10px;
+}
+
+/*media queries */
+@media  (max-width: 750px) {
+  html {
+    font-size: 50%;
+  }
+}
