@@ -6,7 +6,7 @@
 
 Site que revela seu destino. Faça uma pergunta para saber o que acontecerá.
 
-[🔗 Clique aqui para acessar](https://jhessfrois.github.io/insta-links/)
+[🔗 Clique aqui para acessar](https://jhessfrois.github.io/revelar-destino/)
 
 ## 🛠 Tecnologias
 
