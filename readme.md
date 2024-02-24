@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-Aplicação desenvolvida na Maratona Explorer da Rocketseat na trilha Explorer.
+Aplicação desenvolvida na 1ª edição da Maratona Explorer da Rocketseat.
 </p>
 
 <p align="center">
