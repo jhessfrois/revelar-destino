@@ -23,6 +23,8 @@ Aplicação desenvolvida na Maratona Explorer da Rocketseat na trilha Explorer.
   <img alt="Preview do projeto desenvolvido." src="/.github/preview.png" width="80%">
 </p>
 
+> Projeto desenvolvido entre os dias 06/06 e 12/06 de 2022 
+
 ## **🚀 Tecnologias**
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
