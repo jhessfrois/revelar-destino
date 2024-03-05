@@ -1,6 +1,6 @@
 <p align="center">
   <img alt="Logo Maratona Explorer - Rocketseat" src="https://i.imgur.com/5IGvWPi.png" width="200px" />
-</p> 
+</p>
 
 <p align="center">
 Aplicação desenvolvida na 1ª edição da Maratona Explorer da Rocketseat.
